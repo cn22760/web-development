@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Trust University</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<!-- css style sheet starts here -->
+       <link rel="stylesheet" href="style.css">
+    <!-- css style sheet starts ends here -->
+  </head>
+  <!-- navigation starts here -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/university.jpg" alt="" width="40" height="34" class="d-inline-block align-text-top">
+                Trust University
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="enrollment.html">Enrollment</a>
+                  <a class="nav-link" href="registration.html">Registration</a>
+                  <a class="nav-link" href="program.html">Programs</a>
+                  <a class="nav-link" href="payments.html">Payments</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+      </header>
+    <!-- Navigation ends here -->
+  <body>
+    <!-- layout one starts here -->
+                      <div class="container">
+                          <h2><mark>Search for a Course</mark></h2>
+                            <br>
+                              <div class="row align-items-start">
+                                <p>Welcome to Trust University's Course Catalog. We have listed over 4,000 courses in this catalog from over 100 departments and includes course descriptions, outcomes, codes, units and so much more. Take a moment and explore the full breadth and depth of our academic offerings & search by College, Degree program, Year etc</p>
+    <!-- layout one ends here -->
+    <!--Form begins here-->
+    <label for="edit-field-academic-programs-sharing-tid">
+                Academic Program (e.g. Bachelor of Information Technology)</label>
+                <div class="form-item form-type-textfield form-item-field-academic-programs-sharing-tid" role="application">
+ <input type="text" id="edit-field-academic-programs-sharing-tid" name="field_academic_programs_sharing_tid" value="" size="60" maxlength="128" class="form-text form-autocomplete" autocomplete="OFF" aria-autocomplete="list"><input type="hidden" id="edit-field-academic-programs-sharing-tid-autocomplete" value="https://courses.mak.ac.ug/index.php?q=admin/views/ajax/autocomplete/taxonomy/3" disabled="disabled" class="autocomplete autocomplete-processed">
+<span class="element-invisible" aria-live="assertive" id="edit-field-academic-programs-sharing-tid-autocomplete-aria-live"></span></div>
+<!--course title begins here-->
+<div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Enter a Course title (e.g. Information Systems) Start with a few words..          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-title">
+ <input type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text">
+</div>
+        </div>
+              </div>
+<!--course code begins here-->
+              <label for="edit-field-course-code-value">
+                      Course Code (e.g. BIS 1200)          </label>
+                      <div class="views-widget">
+                                <div class="form-item form-type-textfield form-item-field-course-code-value">
+                       <input type="text" id="edit-field-course-code-value" name="field_course_code_value" value="" size="30" maxlength="128" class="form-text">
+                      </div>
+                              </div>
+
+<!--year of study begins here-->
+                              <label for="edit-field-course-year-of-study-tid">
+                                          Year of Study          </label>
+                              <div class="form-item form-type-select form-item-field-course-year-of-study-tid">
+ <select id="edit-field-course-year-of-study-tid" name="field_course_year_of_study_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="1">Year 1</option><option value="791">Year 5</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option></select>
+</div>
+<!--semester begins here-->
+                              <label for="edit-field-semester-tid">
+                                    Semester </label>
+                                    <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-semester-tid">
+ <select id="edit-field-semester-tid" name="field_semester_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="16">Semester 1</option><option value="17">Semester 2</option><option value="720">Semester 3 (Recess)</option></select>
+</div>
+        </div>
+<!--course college begins here-->
+
+                              <div id="edit-tid-wrapper" class="views-exposed-widget views-widget-filter-tid">
+                  <label for="edit-tid">
+            Course College          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-tid">
+ <select id="edit-tid" name="tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="430">College of Agricultural and Environmental Sciences</option><option value="431">College of Business and Management Sciences</option><option value="429">College of Computing and Information Sciences</option><option value="432">College of Education and External Studies</option><option value="428">College of Engineering, Design, Art and Technology</option><option value="433">College of Health Sciences</option><option value="434">College of Humanities and Social Sciences</option><option value="435">College of Natural Sciences</option><option value="436">College of Veterinary Medicine, Animal Resources &amp; Bio-security</option><option value="832">School of Law</option></select>
+</div>
+        </div>
+              </div>
+  <!--search button here-->
+                <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-course-catalogue" name="" value="Start Search" class="form-submit"></div>
+
+                <br>
+                <br>
+          <!--copyright begins here-->
+                <div class="copyright">
+  					      <div class="container">
+  						       <div class="row">
+  							       <div class="col-xs-12">
+  									     <div id="block-block-11" class="block block-block">
+                <div class="content">
+                   <p style="text-align: center; ">© Copyright 2022 - All Rights Reserved - Trust University</p>
+                      </div>
+                        </div>
+  							         </div>
+  						             </div>
+  					                 </div>
+  				                     </div>
+          <!--copyright ends here-->
+
+
+  </body>
+</html>
